@@ -1,0 +1,11 @@
+#construct a complex object from simple objects using step-by-step approach
+#Remove filling values of all variables by the constructor just set the need values.
+
+#The main advantages of Builder Pattern are as follows:
+	*It provides clear separation between the construction and representation of an object.
+	*It provides better control over construction process.
+	*It supports to change the internal representation of objects.
+	
+#Adding more data items will not affect client code. client need to use it if needed
+
+client - Main.java code

@@ -1,0 +1,13 @@
+#Adapter pattern works as a bridge between two incompatible interfaces.
+
+#Example: We have legacy cod which uses XML as an output format but now we want to
+ upgrade our software and show good looking UI to user but for showing this we need 
+ data output in json format so we can use it to show on UI so we can intermediate 
+ translator class which convert XML into JSON and fetch it to UI without changing legacy code.
+ 
+#It uses inheritance and composition to make two different/incomptable classes to work together.  
+
+#It creates middle layer class to act as translator.
+
+#Adapter behaviour is seperated without impacting/changing existing code.
+
